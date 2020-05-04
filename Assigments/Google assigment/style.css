@@ -1,0 +1,88 @@
+#main-header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.contanier {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+} 
+.greyBackground {
+    background: #eeeeee;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 5px;
+}  
+.my-form label {
+    padding-top: 5px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.my-form input {
+    width: 300px;
+    border: 0.8px solid #6789a8;
+} 
+.my-form button {
+     border: 1.2px solid #6789a8;
+     border-radius: 0.4em;
+     margin-bottom: 10px;
+     display: inline-block;
+} 
+.subcontent1{
+    height: 80px;
+    width: 450px;
+    float: left;
+    margin-right: 2px;
+    background-color: #7ee5da;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 2px;
+    margin-top: -2px;
+   }
+ .subcontent2{
+    height: 80px;
+    width: 300px;
+    float: left;
+    margin-right: 2px;
+    background-color: #70ccc2;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 2px;
+    margin-top: -2px;
+   }
+   .subcontent3{
+    height: 80px;
+    width: 462px;
+    float: left;
+    background-color: #62b3aa;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 2px;
+    margin-top: -2px;
+   }
+   #subscribe{
+       border-radius: 0.4em;
+       border: 1.2px solid #6789a8;
+       margin-right: 20px;
+       margin-top: 3px;
+       margin-bottom: 3px;
+   }
+   #Special, #GetGoogle, #updates{
+    font-weight: bold;
+   }
+   #main-footer {
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 100px;
+}
+ 
+
+

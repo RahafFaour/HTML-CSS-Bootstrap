@@ -1,0 +1,14 @@
+.materialboxed{
+    padding: auto;
+    display: inline;
+    padding-top: 5px;
+    margin-left: 50px;
+}
+.nav-wrapper{
+    background: #424242 ;
+}
+.waves-effect{
+ background-color: #546e7a ;
+  top: 30px;
+  left: 50%;
+}

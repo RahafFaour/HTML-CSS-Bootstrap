@@ -1,0 +1,99 @@
+#h4-available{
+    color: #8c8c8c;
+    margin-bottom: -5px;
+}
+#amsterimage{
+    width: 400px;
+    max-height: 300px;
+}
+.images-contanier {
+    display: flex;
+    margin-left: 50%;
+    margin-top: -35%;
+}
+.images-contanier ul{
+list-style: none;
+}
+.san ul{
+    list-style: none;
+}
+.san{
+margin-left: -35px;
+}
+#list1-name, #list2-name, #list3-name {
+color: lightcoral;
+}
+.gabs{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    display: inline-flex;
+    margin-top: 20%;
+}
+.gabs1{
+    margin-left: 5%;
+    position: absolute;
+    display: inline-flex;
+    margin-top: 19%;
+}
+.gabs1 u{
+color: blue;
+font-weight: bold;
+}
+.arro{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    display: inline-flex;
+    margin-left: 5%;
+    margin-top: 24%;
+}
+.leftside{
+    margin-top: 100px;
+}
+.leftside a{
+    font-style: italic;
+}
+.leftside input{
+    width: 10%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#guests{
+    width: 40px;
+    border-radius: 0.3em;
+}
+.logo1{
+    width: 20px;
+    height: 30px;
+    display: flex;
+    bottom: 25px;
+    position: absolute;
+    left: 8%;
+}
+#assoonas{
+    display: flex;
+    bottom: 20px;
+    position: absolute;
+    padding-right: 40px;
+    font-weight: bold;
+    left: 40px;
+}
+.nav ul{
+    list-style: disc;
+}
+.nav{
+    height: 30px;
+    display: flex;
+    bottom: 2px;
+    position: absolute;
+    left: 1%;  
+}
+#main-footer {
+    height: 30px;
+    display: flex;
+    bottom: -150px;
+    position: absolute;
+    left: 1%;  
+}
+ 

@@ -1,0 +1,201 @@
+
+body{
+    background: white;
+    margin:0px;
+    padding:0px;
+    height:1500px;  
+    }
+    #contianer{
+   background:linear-gradient(white, #D3D8E8);
+    height:815px;
+    position: relative;;
+    display: block;
+    }
+    #header{
+    
+    width: 100%;
+    height: 82px;
+    background: #3A5795;
+    box-shadow: 2px 2px 2px 2px;
+    box-shadow: 0px 1px 8px 2px;
+    position: relative;
+    }
+    #facebookLogo{
+    
+    display: inline-block;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 30px;
+    }
+    .login_form{
+    color: white;
+    display: inline-block;
+    margin-left: 700px;
+    margin-top: 25px;
+    }
+    #emailtext, #passwordtext{
+        margin-left: 5px;
+        width:130px;
+        height:20px;
+    }
+    #login{
+      width:65px;
+      height:25px;
+      margin-left: 5px;
+      font-size: 16px;
+      font-weight:bold;
+      background:#637BAD;
+      border:1px solid #1A356E;
+      color:white;
+    
+    }
+    #Facebookhelp{
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000080 ;
+    font-size:16px; 
+    width: 1200px;
+    height: auto;
+    bottom: 350px;
+    margin-left: 100px;
+    position: absolute;
+    
+    }
+    #facebook_img{
+    position: relative;
+    display: inline-block;
+    }
+    #firstname {
+    height:25px;
+    border-style:groove; 
+    position: absolute;
+    margin-left: 2px;
+    border: 1px solid #637BAD;
+    width: 250px;
+    }
+    #lastname{
+        height:25px;
+        border-style:groove; 
+        position: relative;
+        margin-left: 2px;
+        margin-top:10px;
+        border: 1px solid #637BAD;
+        width: 250px;
+    }
+#email{
+        height:25px;
+        border-style:groove; 
+        position: absolute;
+        margin-top:3px;
+        margin-left: 2px;
+        border: 1px solid #637BAD;
+        width: 250px;
+    }#reemail{
+        height:25px;
+        border-style:groove; 
+        position: relative;
+        margin-top:-8px;
+        margin-left: 2px;
+        border: 1px solid #637BAD;
+        width: 250px;
+        }
+#password{
+    height:25px;
+    border-style:groove; 
+    position: absolute;
+    margin-top:-18px;
+    margin-left: 2px;
+    border: 1px solid #637BAD;
+    width: 250px;
+}
+    #facbody{
+    position: absolute;
+    right: 0;
+    margin-right: 430px;
+    top: 100px;
+    
+    }
+    #form input{
+        
+        display: inline-block;
+    }
+    #form select{
+    
+    border: 1px solid #BDC7D8;
+    border-radius: 30px;
+    color: black;
+    }
+    .bluetext{
+    color:#0349ba;
+    }
+    .creatpagetext{
+    color:#0349ba;
+    font-size: 18px;
+    font-weight: bold;
+    }
+    #color_front1{
+    color: white;
+    font-size: 20px;
+    }
+    .footer{
+        text-align: center;
+        color: #7259B1;
+        width: 100%;
+        height: 0px;
+        position: relative;
+    }
+    .footer p, pre{
+    font-size:20px;
+    color:#365899;
+    }
+    .facebookgreytext{
+        font-size:18px;
+        color: #737373; 
+    }
+    #left{
+     margin-left: 40px;
+    }
+    #passwordspan{
+     margin-left: 18px;
+    }
+    .sing_up_color{
+    font-family:helvetica;
+    font-size:22px;
+    color:	#000080;
+    font-weight: bold;
+    }
+    #selectform, #selectbirthday, #selectday, #selectyear{
+    color: #1d2129;
+    font-size: 18px;
+    }
+    #signup{
+    width:125px;
+    height:40px;
+    background:#63A551;
+    border-style: solid;
+    border-width:1px;
+    border-color:black;
+    left:100px;
+    position:relative;
+    }
+    .It_free_color {
+    color: #2b4775;
+    font-size: 19px;
+     font-family: helvetica,
+    }
+    .userinfo{
+    font-weight:bold;
+    color: #2b4775;
+    font-size: 18px;
+     font-family: helvetica,
+    
+    }
+    p.inset {border-style: inset;}
+    .greytext{
+    color: #777;
+    font-size: 18px;
+    font-weight: bold;
+    }
+    
+    
+    
