@@ -1,24 +1,21 @@
-const myForm = document.querySelector('.form');
-const nameInput = document.querySelector('#inputEmail3');
-const emailInput = document.querySelector('#inputPassword3');
-const msg = document.querySelector('.msg');
-const userList = document.querySelector('.users');
+function largestOfFour(arr) {
+    let newarr = [];
+    for (let i = 0; i < arr.length; i++) {
 
-myForm.addEventListener('submit', onSubmit);
+        //It is like a storage for the sub array
+        let Max = 0;
 
-function onSubmit(e) {
-    e.preventDefault();
-    if(nameInput.value === '' || emailInput.value === '') {
-        msg.classList.add('error');
-        msg.innerHTML = 'Please enter all fields';
-        setTimeout(() => msg.remove(), 3000)
-    } else {
-        const li = document.createElement('li');
-        li.appendChild(document.createTextNode(`${nameInput.value}: ${emailInput.value}`));
-        userList.appendChild(li);
-        //Clear the fields
-        nameInput.value = '';
-        emailInput.value = '';
+        for (let j = 0; j < arr[i].length; j++) {
+            if (Max <= arr[i][j]) {
+                Max = arr[i][j];
+            }
+        }
+
+        //Store largest number in new array 
+        newarr[i] = Max;
     }
-
+    console.log(newarr)
+    return newarr;
 }
+
+largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
