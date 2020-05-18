@@ -1,0 +1,22 @@
+#header{
+    background-color: lightgray;
+    color:#fff;
+    padding:20px;
+    text-align: center;
+    border: 4px #000 solid;
+    margin-bottom: 10px;
+}
+.para1{
+    background:gray;
+    color:#fff;
+    margin-top: 30px;
+    padding:40px;
+}
+hr{
+    border-top: 1px solid black;
+}
+#btnFadeOut, #btnFadeIn{
+        display: inline-block;
+        vertical-align: top;
+    
+}

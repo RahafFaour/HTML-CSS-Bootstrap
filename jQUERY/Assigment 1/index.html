@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery Bonaza</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <header id="header">
+            <h1>jQuery Bonaza</h1>
+        </header>
+        <div class="row">
+            <div class="col text-center">
+                <button type="button" id="btnFadeOut" class="btn btn-secondary">Fade Out</button>
+                <button type="button" id="btnFadeIn" class="btn btn-secondary">Fade In</button>
+                <button id="btnSlideUp" class="btn btn-secondary">Slide Up</button>
+                <button id="btnSlideDown" class="btn btn-secondary">SlideDown</button>
+                <p class="para1" value="para1">When the button is clicked this text fades out</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col text-center">
+                <button type="button" id="btnappend" class="btn btn-secondary">Append</button>
+                <p id="para2">When the button is clicked append some text</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col text-center">
+                <button type="button" id="btchange" class="btn btn-secondary">Change color</button>
+                <p id="para3">When the button is clicked change the text color to red</p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col text-center">
+                <button class="btn btn-secondary" type="button" id="btnHello">Hello World</button>
+                <button class="btn btn-secondary" type="button" id="btnText">My Text</button>
+                <button class="btn btn-secondary" type="button" id="btn1">Hide the text</button>
+                <button class="btn btn-secondary" type="button" id="btn2">Show the text</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+
+                <div id="myDiv"></div>
+                <div id="myText"></div>
+                <p id="para4">When the button is clicked change the text color to red</p>
+
+            </div>
+
+        </div>
+        <!-- <div class="row">
+            <div class="col text-center">
+                <button type="button" id="btnText" class="btn btn-secondary btn btn-success btn-block">Text</button>
+                <div id="myText"></div>
+            </div>
+        </div> -->
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('#btnFadeOut').click(function () {
+                $('.para1').fadeOut(3000);
+            });
+            $('#btnappend').click(function () {
+                $('#para2').append('<h1>Append text</h1>');
+            });
+            $('#btchange').click(function () {
+                $('#para3').css('color', 'red');
+                $('p#para3').addClass('myClass');
+            });
+            $('#btnFadeIn').click(function () {
+                $('.para1').fadeIn(3000);
+            });
+            $('#btnHello').click(function () {
+                $('#myDiv').html('<h3>Hello World</h3>');
+            });
+
+            $('#btnText').click(function () {
+                $('#myText').text('My Text');
+            });
+
+            $('#btn1').on('click', function () {
+                $('#para4').hide();
+            });
+            $('#btn2').on('click', function () {
+                $('#para4').show();
+            });
+            $('#btnSlideDown').click(function(){
+				$('.para1').slideDown(3000);
+                console.log($( '.para1' ).val()+"This is the value of para1");
+			});
+			$('#btnSlideUp').click(function(){
+				$('.para1').slideUp(3000);
+			});
+
+        });
+    </script>
+</body>
+
+</html>

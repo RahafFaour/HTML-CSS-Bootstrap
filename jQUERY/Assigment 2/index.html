@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <title>Turing to Gates</title>
+    </head>
+    <body>
+</html>
+<div class="product-image">
+    <div class="image1">
+        <img src="./1a.jpg" alt="Product Title" id="a1"></div>
+    <div class="image2">
+        <img src="./2a.jpg" alt="Product Title" id="a2"></div>
+    <div class="image3">
+        <img src="./3a.jpg" alt="Product Title" id="a3"></div>
+</div>
+<script>
+$(document).ready(function(){
+    $("img#a1").click(function(){
+        $(this).attr("src", "./1b.jpg");
+    });    
+    $("img#a2").click(function(){
+        $(this).attr("src", "./2b.jpg");
+    });  
+    $("img#a3").click(function(){
+        $(this).attr("src", "./3b.jpg");
+    });    
+});
+</script>
+</body
