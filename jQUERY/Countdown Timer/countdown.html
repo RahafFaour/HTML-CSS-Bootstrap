@@ -14,11 +14,15 @@
 <body>
 
     <div class="container h-100">
+        <div id= "animation">
+        <h1 id="textInput" class="row justify-content-center align-self-center">Please enter the time you want in the format 00:00:00</h1>
+    </div>
         <div class="row h-100 justify-content-center align-items-center">
-            <input type="text" id="hms" class="form-control no-border text-left" placeholder="00:00:00 " />
-            <div class="form-inline">            <input type="button" id="dl" class="btn btn-secondary btn-circle btn-xl" value="Start"
+            <input autocomplete="off" type="text" id="hms" class="form-control no-border text-left" placeholder="00:00:00" />
+            <div class="form-inline">         
+          <input type="button" id="dl" class="btn btn-primary btn-circle btn-xl" value="Start"
                 onclick="handler()" />
-            <button id="repeat" class="btn btn-primary btn-circle btn-xl" onclick="repeat()">repeat</button>
+            <button id="repeat" class="btn btn-light btn-circle btn-xl" onclick="repeat()">Reset</button>
         </div>
             <div id="count"></div>
 

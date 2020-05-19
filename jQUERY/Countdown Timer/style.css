@@ -1,39 +1,28 @@
-span#jqcd_count {
-    font-size: 20pt;
-    font-weight: bold;
-  }
-  input#jqcd_start,
-  input#jqcd_stop,
-  input#jqcd_reset {
-    font-size: 12pt;
-    font-weight: bold;
-  }
-  input#jqcd_start,
-  input#jqcd_stop,
-  input#jqcd_reset {
-    width: 100px;
-  }
-  span#jqcd_count {
-    font-family: "Lucida Console", Monaco, "Courier New", Courier, monospace !IMPORTANT;
-  }
   #hms{
-      background-color: #f6f8fb;
-      margin-top: 10%;
-      height: 300px;
-      font-size: 60px;position: relative;
+      background-color: transparent;
+      margin-top: 5%;
+      border: none; 
+      border-width: 0; 
+      color: white;
+      box-shadow: none;
+       height: 300px;
+      font-size: 100px;
+      position: relative;
   }
   ::-webkit-input-placeholder {
-    font-size: 250px;
+    font-size: 280px;
  }
  
  :-moz-placeholder { /* Firefox 18- */
-       font-size: 250px;
+       font-size: 280px;
  }
  
  ::-moz-placeholder {  /* Firefox 19+ */
-       font-size: 250px;
+       font-size: 280px;
  }
- 
+ .form-control.no-border.text-left::-webkit-input-placeholder {
+  color: white;
+}
  /* Overriding styles */
  
  ::-webkit-input-placeholder {
@@ -51,26 +40,43 @@ span#jqcd_count {
     height: 200px; 
     padding: 10px 16px; 
     border-radius: 200px; 
-    background-color:#f6f8fb ;
+    background-color:transparent ;
     font-size: 35px; 
-    color: gray;
-    border-color: gray;
+    color: white;
+    border-color: white;
     text-align: center; 
-    margin-top: 3%;
+    margin-top: 1%;
     right: 40%;
     position: absolute;
 } 
-    .btn-primary.custom-btn {
-        background-color: #000;
-        border-color: #000;
-    }
+
 #repeat{
     right: 24%;
 
 }
 #count{
     position: relative;
-    font-size: 25px;
+    color: white;
+    font-size: 35px;
+}
+#textInput{
+  margin-top: 10%;
+  color: white;
+
+
+}
+body{
+  background-image: url("112619_EC_time-crystals_feat-1028x579.jpg");
+
 }
 
-
+.btn-light:hover, .btn-light:focus, .btn-light:active, .btn-light.active, .open>.dropdown-toggle.btn-light {
+  color: #fff !important;
+  background-color: #b91d8b!important;
+  border-color: #b91d8b!important; /*set the color you want here*/
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary  {
+  color: #fff !important;
+  background-color: #2699c6!important;
+  border-color: #2699c6!important; /*set the color you want here*/
+}
