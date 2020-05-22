@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Tenor Gif
+    </title>
+    <meta charset="UTF-8">
+    <meta name="Tenor Gif" content="Tenor Gif">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta name="keywords" content="keywords Tenor Gif website">
+
+</head>
+
+<body>
+    <!------------Navbar-------->
+    <nav class="navbar navbar-expand-xl fixed-top">
+        <div class="container">
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav navbar-logo mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#programming_languages">Programming languages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#photogallery">Photo Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#moviegallery">Movie Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#github">Github Friends</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!------Home background image------>
+    <div class="container-fluid px-0" id="home">
+        <div class="row  mx-0">
+            <div class="col-md-12 px-0">
+                <img src="./python-developer.jpg" alt="placeholder 960" class="img-responsive" />
+            </div>
+
+        </div>
+        <div class="carousel-caption col-md-8 px-0">
+            <h1 id="welcom">Hey there welcome! You will find a lot of interesting topics in this website.</h1>
+        </div>
+    </div>
+
+    <!------Programming Languages------>
+    <div class="boxes" id="programming_languages">
+        <h2>Here is an explanation about HTML, CSS, JavaScript, Web Frameworks, jQuery and Ajax</h2>
+        <div class="box-container">
+            <div class="box">
+                <h3>HTML</h3>
+                <p>HTML is the foundation of web development. It is an acronym for HyperText Markup Language. It is used
+                    to structure content on a webpage. What do we mean by content? Plain text, images, videos, links to
+                    other websites, etc. The structure gives content meaning by defining that content as, for example,
+                    headings, paragraphs, or images. </p>
+            </div>
+
+            <div class="box">
+                <h3>CSS</h3>
+                <p>It stands for Cascading Style Sheets. It is used to place our HTML code where we want it on the
+                    screen.
+
+                    It is great because we can use a style for many elements, so we don't have to design every single
+                    title or paragraph in our document.
+
+                    Like previously we had to save our HTML documents with .html, CSS documents will be saved with .css,
+                    at the end of the file name.</p>
+            </div>
+
+            <div class="box">
+                <h3>JavaScript</h3>
+                <p>JavaScript is a programming language. We use it to communicate with the browser, software that allows
+                    us to access the Internet and open webpages. It is essential to learn in order to become a web
+                    developer.
+                    The main use for JavaScript is to make your webpage interactive: for example, if you click a button
+                    it will open a popup. Or if you scroll over an image, it changes its color.
+                </p>
+            </div>
+
+
+            <div class="box">
+                <h3>Web Frameworks</h3>
+                <p>A web framework (WF) or web application framework (WAF) is a software framework that is designed to
+                    support the development of web applications including web services, web resources, and web APIs. Web
+                    frameworks provide a standard way to build and deploy web applications on the World Wide Web.
+
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>jQuery</h3>
+                <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document
+                    traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API
+                    that works across a multitude of browsers. With a combination of versatility and extensibility,
+                    jQuery has changed the way that millions of people write JavaScript.</p>
+            </div>
+
+            <div class="box">
+                <h3>Ajax</h3>
+                <p>Ajax is a set of web development techniques using many web technologies on the client side to create
+                    asynchronous web applications. With Ajax, web applications can send and retrieve data from a server
+                    asynchronously without interfering with the display and behavior of the existing page.</p>
+            </div>
+        </div>
+    </div><br>
+
+    <div id="imagespage">
+
+        <!------ Photo's searcher ------>
+        <br />
+        <br />
+        <div id="photogallery">
+            <div class="gallery" id="photo-gallery">
+                <p>Feeling bored? Come to search for funny photos in our gallery.</p>
+                <div class="search-section">
+                    <input id="search" type="search" name="search" placeholder="Search">
+                    <input id="number" type="search" name="number"
+                        placeholder="Number of photos you want to show on the screen">
+                    <input id="input" type="submit" value="Search">
+
+                    <div id="div_results"></div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <hr>
+        </div>
+        <!-- ---------------------- Movies searcher -------------------------------- -->
+
+        <br />
+        <div id="moviegallery">
+            <div class="gallery" id="movies-searcher">
+                <p>Search for your favorite movie.</p>
+                <div class="search-section">
+                    <input type="text" class="input" id="movieSearch" value="" />
+                    <input type="submit" onclick="SearchMovies()" id="myBtn" value="Search">
+                    <div id="result-movies"></div><br><br>
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <!-- ---------------------- github api -------------------------- -->
+
+        <br><br>
+        <div id="github">
+            <div class="Github-search" id="friend searcher">
+                <p>Do you have friends on github? Search them out.</p><br>
+                <div class="search-user">
+                    <input type="text" class="input" placeholder="Github username" id="githubSearch">
+                    <button id="myBtnn" onclick="SearchGithub()">Search</button>
+                </div>
+                <div id="resultApi"></div>
+            </div><br><br>
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer" class="page-footer font-small blue">
+
+            <div class="footer-copyright text-center py-3">© 2020 created by Rahaf Faour
+            </div>
+
+        </footer>
+        <!-- Footer -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+        <script src="main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

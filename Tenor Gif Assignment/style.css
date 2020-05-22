@@ -1,0 +1,355 @@
+.nav-link{
+    font-size: 22px;
+    color: 	#8dabb5;
+ }
+ .nav-link:hover {
+    background: #436070;
+    color: white;
+}
+.navbar-brand{
+    left: 0;
+ }
+ .navbar{
+    position: fixed;
+    background-color: #436070;
+}
+
+
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+#home{
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+/*------The text on the photo-----*/
+#welcom{
+margin-bottom: 40%;
+transition: all 1000ms;
+color: 	#8dabb5;
+font-style: italic;
+font-weight: bold;
+display:block;
+-webkit-transform: rotate(-10deg); 
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); 
+}
+/*----------*/
+/*-----Programing languages page------*/
+#programming_languages {
+    text-align: center;
+    color: rgb(19, 46, 46);
+    position: static;
+}
+.boxes {
+    margin-top: 20px;
+}
+
+.boxes h2 {
+    text-align: center;
+    font-size: 2em;
+    margin: 25px;
+    color: rgb(19, 46, 46);
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box-container .box {
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    background: #9bbbc8;
+    border-radius: 25px;
+    margin-bottom: 28px;
+    padding: 10px;
+}
+
+.boxes h3 {
+    padding: 0;
+    margin: 10px;
+    font-size: 1.7em;
+    color: white;
+    font-weight: bold;
+
+}
+/*-----------------*/
+/* ------------ api Toner --------------------*/
+
+.gallery {
+    margin-top: 30px;
+    align-items: center;
+    /* background-color: #ccdfdd; */
+}
+#imagespage {
+    background-color: #d5e1e7 ;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    position: static;
+
+}
+
+.gallery p {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px;
+    color: rgb(19, 46, 46);
+    text-align: center;
+}
+
+.gallery #search {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 15%;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    outline: none;
+    /* position: relative; */
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+.gallery #number {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 15%;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    font-size: 1.3em;
+    /* position: absolute; */
+}
+.gallery #input {
+    border-radius: 20px;
+    /* margin: 10px; */
+    margin-top: 20px;
+    display: block;
+    outline: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50%;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    background-color: #436070;
+}
+.gallery #input:hover {
+    background-color: white;
+    color: black; 
+}
+#div_results{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    overflow: auto;
+}
+
+.containers {
+    align-items: stretch;
+    display: flex;
+    padding: 2px 16px;
+    background-color: #d5e1e7;
+    margin: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    width: 250px;
+}
+
+.card:hover {
+    opacity: 0.4;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card p {
+    font-size: 1.4rem;
+    color: #000;
+}
+
+.card span {
+    color: rgb(32, 10, 226);
+}
+
+.container {
+    padding: 9px 16px;
+}
+
+/* -------------------------------- search movies -------------------------- */
+.gallery #myBtn {
+    border-radius: 20px;
+    /* margin: 10px; */
+    margin-top: 20px;
+    display: block;
+    outline: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 48%;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    background-color: #436070;
+}
+.gallery #myBtn:hover {
+    background-color: white;
+    color: black; 
+}
+.gallery input {
+    width: 50%;
+    margin-left: 18%;
+    margin-right: 15%;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    font-size: 1.3em;
+}
+#result-movies {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    overflow: auto;
+}
+
+#result-movies a {
+    text-decoration: none;
+}
+
+.containers h4 {
+    color: #000;
+}
+
+.containers span {
+    color: rgb(11, 11, 167);
+}
+.fa-arrow-alt-circle-up:before {
+    content: "\f35b";
+}
+
+
+/* ------------------------- github api ---------------------------------- */
+
+.Github-search {
+    margin-bottom: 60px;
+}
+
+.Github-search p {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px;
+    color: rgb(19, 46, 46);
+    text-align: center;
+}
+
+.search-user {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+.search-user input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+
+.search-user button {
+    width: 30%;
+    margin-left: 10px;
+    padding: 10px;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.search-user button:hover {
+    background: #436070;
+    color: white;
+}
+
+#resultApi {
+    width: 73%;
+    margin-left: 10%;
+    margin-top: 20px;
+    display: flex;
+    background: #9bbbc8;
+    border-radius: 15px;
+}
+
+#resultApi a {
+    text-decoration: none;
+}
+
+#resultApi a:hover {
+    opacity: 0.3;
+    text-decoration: none;
+}
+
+.resultApi {
+    display: flex;
+}
+
+.resultApi img {
+    margin-top: 0;
+    width: 30%;
+    margin-right: 10%;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.resultApi .cards h1 {
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+    align-items: initial;
+    font-size: 1.5em;
+}
+
+@media (max-width: 600px) {
+    .search-user {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .search-user input {
+        width: 60%;
+    }
+    .search-user button {
+        margin-left: 10px;
+        width: 40%;
+    }
+    #resultApi {
+        margin-left: 3%;
+        width: 93%;
+    }
+}
+/*------footer-------*/
+#footer{
+    background-color: white;
+}
+#div_results p {
+    color: red;
+}
