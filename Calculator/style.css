@@ -1,0 +1,46 @@
+#inputNumber{
+    margin-top: 2%;
+    margin-left: 45%; 
+    font-size: 35px;
+
+}
+#colNumber1{
+    margin-top: 10%;
+}
+#colNumber1 .col{
+    padding-bottom: 5%;
+    margin-right: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+
+
+}
+#colNumber2{
+    margin-top: 2%;
+    margin-bottom: 20%;
+
+}
+#colNumber2 .col{
+    padding-bottom: 5%;
+    margin-right: 2%;
+    margin-top: 2%;
+
+}
+#equal{
+    text-align: center;
+
+}
+.btn-outline-info, .btn-outline-danger {
+    padding:40px;
+    margin: auto;
+    border-radius: 500px; 
+    background-color:transparent ;
+    font-size: 25px; 
+    color: white;
+    border-color: white;
+    text-align: center; 
+
+}
+*:focus {
+    outline: 0 !important;
+}
