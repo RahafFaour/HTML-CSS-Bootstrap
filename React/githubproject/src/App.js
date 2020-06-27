@@ -72,7 +72,7 @@ export class App extends Component {
          onChange={this.Change} value={this.state.value}></input> <br/><br/>
         <button onClick={this.GetUserInfo}>Get User Information</button>
         <User user={this.state.showAllData}/>
-        <hr class="repo_hr"/>
+        <hr className="repo_hr"/>
         <h3 className="user_repo">User Repositories</h3>
         <Repositories repo={this.state.showrRepositories}/>
       </div>
