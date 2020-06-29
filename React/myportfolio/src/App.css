@@ -18,8 +18,7 @@ background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, F
   height: 77%;
   background-repeat: no-repeat;
   background-repeat: no-repeat;
-  background-size:100% 100%;
-
+  background-size:100% 100%;  
 }
   #fixedheader{
     position: fixed;
@@ -34,21 +33,19 @@ background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, F
   vertical-align:middle;
   border-radius: 50%;
 
-
-
 }
 .myimage img{
   width:100%;
 }
 .textt{
-  opacity: .8;
-  width: 75%;
+  opacity: 0.8;
   margin: auto;
   border-radius: 10px;
+
 }
 .textt h1{
-  font-size: 66px;
   font-weight: bold;
+  font-size: 4em;
   color: white;
 }
 .textt p{
@@ -63,10 +60,17 @@ margin: auto;
 position: relative;
 justify-content: center;
 }
+#about{
+  position: relative;
+  width: 50%;
+margin: auto;
+justify-content: center
+}
 .social-links a{
   color: darkgreen;
   font-size: 4em;
   display: flex;
+  margin-top: 1%;
   padding:10px;
 }
 .social-links a:hover{
@@ -103,7 +107,7 @@ justify-content: center;
   background-color: green;
   border: 1px solid green;
 }
-#abouttitle{
+#abouttitle, #projecttitle{
   font-weight: bold;
   font-size: 1.6em;
 }
@@ -115,6 +119,9 @@ text-align: left;}
   width: 50%;
   display: inline-block;
 
+}
+#jouwteam, #diapal{
+  margin-bottom: 5%;
 }
 .container:hover .image {
   opacity: 0.3;
@@ -133,8 +140,8 @@ text-align: left;}
   position: absolute;
   top: 20%;
   bottom: 0;
-  left: 20%;
   right: 0;
+  left: 0;
   height:auto;
   width: 59%;
   opacity: 0;
@@ -145,36 +152,33 @@ text-align: left;}
 
 .container:hover .overlay {
   opacity: 1;
+  width: 59%;
 }
 
-.text{
+.ui.segment.text{
   color: white;
-  font-size: 20px;
+  background-color: transparent ;
   position: absolute;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  padding: auto;
+  width: 50%;
+  margin: auto;
+  justify-content: center
 }
-.text3 {
+
+.ui.segment.text2{
   color: white;
-  font-size: 18px;
+  background-color: transparent ;
   position: absolute;
-  top: 55%;
+  top: 35%;
   left: 50%;
-  padding-top: 10%;
+  padding: auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-}
-.text2{
-    color: white;
-    font-size: 18px;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  
+  height: 20%;
 }
 .container a {
   color: unset !important 
