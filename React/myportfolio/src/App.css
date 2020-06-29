@@ -1,0 +1,198 @@
+.header-color {
+background: #1f4037;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.header-color .linkto:hover{
+  background-color: lightgreen;
+}
+.nav-grid{
+  background-image: url(designn.jpg);
+  text-align:center;
+  transform: translate3d(0,0,0); 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 77%;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+
+}
+  #fixedheader{
+    position: fixed;
+  }
+.myimage{
+  transform: translate3d(0,0,0); 
+  height: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin-top:100px;
+  display:inline-block;
+  vertical-align:middle;
+  border-radius: 50%;
+
+
+
+}
+.myimage img{
+  width:100%;
+}
+.textt{
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+.textt h1{
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+.textt p{
+  font-size: 20px;
+  padding:1em;
+  color: white;
+}
+.social-links{
+display: flex;
+width: 50%;
+margin: auto;
+position: relative;
+justify-content: center;
+}
+.social-links a{
+  color: darkgreen;
+  font-size: 4em;
+  display: flex;
+  padding:10px;
+}
+.social-links a:hover{
+  color: lightgreen;
+}
+.ui.centered.card{
+  height: 30%;
+  width: 60%;
+  margin: auto;
+
+}
+#aboutmetext{
+  padding: auto;
+  margin: auto;
+  font-size: 1.1em;
+}
+.learnmore a {
+  color:green;
+  text-decoration: none;
+  position: relative;
+  font-weight: bold;
+  
+}
+.learnmore a:hover{
+  color: lightgreen;
+
+}
+.learnmore a:hover::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 2%;
+  bottom: 0;
+  background-color: green;
+  border: 1px solid green;
+}
+#abouttitle{
+  font-weight: bold;
+  font-size: 1.6em;
+}
+#skills h5{
+text-align: left;}
+
+.container {
+  position: relative;
+  width: 50%;
+  display: inline-block;
+
+}
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.image {
+  margin-top: 10%;
+  display: inline-block;
+  width: 60%;
+  align-items: center;
+  height: auto;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 20%;
+  bottom: 0;
+  left: 20%;
+  right: 0;
+  height:auto;
+  width: 59%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: currentColor;
+
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text3 {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  padding-top: 10%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text2{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  
+}
+.container a {
+  color: unset !important 
+}
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}
+
+.content {
+  padding: 100px 0;
+  margin: 50px auto 0 auto;
+  width: 80%;
+}
