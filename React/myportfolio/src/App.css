@@ -23,18 +23,49 @@ background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, F
   #fixedheader{
     position: fixed;
   }
-.myimage{
+.pulse{
   transform: translate3d(0,0,0); 
   height: 200px;
   height: 200px;
   overflow: hidden;
   margin-top:100px;
   display:inline-block;
-  vertical-align:middle;
   border-radius: 50%;
-
+  background:"green";
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(71, 204, 44, 0.4);
+  animation: shadow-pulse 1s infinite;
 }
-.myimage img{
+.pulse:hover {
+  animation: none;
+}
+
+.wrapper
+{ 
+  padding: 20px;     
+} 
+
+@keyframes shadow-pulse
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(71, 204, 44, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 0 10px rgba(71, 204, 44, 0.4);
+  }
+}
+
+@keyframes shadow-pulse-big
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(71, 204, 44, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 0 70px rgba(71, 204, 44, 0.4);
+  }
+}
+
+.pulse img{
   width:100%;
 }
 .textt{
@@ -64,7 +95,8 @@ justify-content: center;
   position: relative;
   width: 50%;
 margin: auto;
-justify-content: center
+justify-content: center;
+
 }
 .social-links a{
   color: darkgreen;
@@ -199,4 +231,7 @@ text-align: left;}
   padding: 100px 0;
   margin: 50px auto 0 auto;
   width: 80%;
+}
+.card:hover{
+  box-shadow: 5px 10px 1px rgba(84, 173, 114, 0.253)!important;
 }

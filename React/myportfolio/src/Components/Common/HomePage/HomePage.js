@@ -15,7 +15,7 @@ export class Navigation extends Component {
                     <Cell col={12}>
                         <img
                             src={myimage} alt="my{image}"
-                            className="myimage ui circular"
+                            className="pulse"
                         />
                         <div className="textt">
                             <h1>Rahaf Faour</h1>
