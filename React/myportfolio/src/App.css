@@ -1,10 +1,13 @@
-.header-color {
-background: #1f4037;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+#fixedheader{
+  color: black;
 }
-.header-color .linkto:hover{
+.header-colorlinkto{
+  color:"black"
+}
+.linkto:hover{
   background-color: lightgreen;
+
 }
 .nav-grid{
   background-image: url(designn.jpg);
@@ -65,9 +68,7 @@ background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, F
   }
 }
 
-.pulse img{
-  width:100%;
-}
+
 .textt{
   opacity: 0.8;
   margin: auto;
@@ -234,4 +235,73 @@ text-align: left;}
 }
 .card:hover{
   box-shadow: 5px 10px 1px rgba(84, 173, 114, 0.253)!important;
+}
+
+#contactcard{
+  padding-top: 20%;
+  position: absolute;
+  left: 30%;
+
+
+}
+#contact{
+  /* width: 100%;
+  height: 100%;
+justify-content: center;
+display: inline-block;
+ /* left: 50%;  */
+ left:50%;
+/* margin-left: 50%;  */
+}
+.contactitem a{
+  color: black;
+  font-size: 19px;
+}
+#contactcard{
+  transform: translate3d(0,0,0); 
+  height: 200px;
+  width: 50%;
+  overflow: hidden;
+  display:inline-block;
+  background:"green";
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(71, 204, 44, 0.4);
+  animation: shadow-pulse 2s infinite;
+}
+#contactcard:hover {
+  animation: none;
+}
+
+
+
+@keyframes shadow-pulse
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(71, 204, 44, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 0 10px rgba(71, 204, 44, 0.4);
+  }
+}
+
+@keyframes shadow-pulse-big
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(71, 204, 44, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 0 70px rgba(71, 204, 44, 0.4);
+  }
+}
+
+.footer {
+  position: relative;
+  margin-top: 19%;
+  right: 0;
+  width: 100%;;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  
 }

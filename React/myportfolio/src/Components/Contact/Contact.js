@@ -62,15 +62,34 @@
 // export default Contact
 
 import React, { Component } from 'react'
-import { List,Card } from 'semantic-ui-react'
+import { Icon,Card } from 'semantic-ui-react'
 
 export class Contact extends Component {
   render() {
     return (
       <div id="contact"><br></br>
-     <Card style={{marginLeft: '35%',height:200,width: 600,paddingTop: 50,marginBottom: 50,  boxSahdow: 'red'}} alignItems="center" >
+     <Card id="contactcard"  alignItems="center"  style={{height:'40%',width: '50%',paddingTop: '5%',paddingBottom: '5%',marginBottom: '3%'}}>
+     <div className="contactitem">
+     <Icon style={{display:"inline"}} aria-hidden="true"  name="user" > 
 
-     <List>
+        <a style={{marginLeft: 10}} >Rahaf Faour</a>
+        </Icon>     
+        <br></br>   <br></br>      
+        
+        <Icon style={{display:"inline"}} aria-hidden="true"  name="marker" > 
+
+          <a style={{marginLeft: 10}} >The Netherlands, Rotterdam</a>
+           </Icon>
+           <br></br> <br></br>    
+         <Icon style={{display:"inline"}} aria-hidden="true"  name="mail" > 
+
+         <a style={{marginLeft: 10}} href='mailto:Rahafffrahaf97@gmail.com'>Rahafffrahaf97@gmail.com</a>
+           </Icon>         
+
+         
+
+      </div>
+     {/* <List>
     <List.Item>
       <List.Icon name='users' style={{paddingLeft:"38%"}}/>
       <List.Content style={{paddingRight:'40%'}}>Rahaf Faour</List.Content>
@@ -85,7 +104,7 @@ export class Contact extends Component {
         <a href='mailto:Rahafffrahaf97@gmail.com'>Rahafffrahaf97@gmail.com</a>
       </List.Content>
     </List.Item>
-  </List>
+  </List> */}
   </Card>
 
       </div>

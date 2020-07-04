@@ -6,6 +6,7 @@ import About from '../../About/About'
 import Skills from '../../Skills/Skills.js'
 import DimmerExampleEvents from '../../Projects/Projects.js'
 import ListExampleIcon from '../../Contact/Contact.js'
+import Footer from '../Footer/Footer.js'
 
 export class Navigation extends Component {
     render() {
@@ -24,19 +25,23 @@ export class Navigation extends Component {
                             <a href={pdf} className="ui positive button" rel="noopener noreferrer" target="_blank">See my CV</a>
 
                         </div>
-                        <br /><br />
+                        <br /><br /> <br /><br /> <br /><br />
                         <div className="social-links">
                             <a href="https://github.com/RahafFaour" rel="noopener noreferrer" target="_blank"> <i aria-hidden="true" className="fa fa-github-square"></i></a>
                             <a href="https://www.linkedin.com/in/rahaf-faour-201033186/" rel="noopener noreferrer" target="_blank"> <i aria-hidden="true" className="fa fa-linkedin-square"></i></a>
                         </div>
-                        <About /><br /><br />
+                        <About /><br /><br /> <br /><br />
                         <Skills />
-                        <br /><br />
+                        <br /><br /> <br /><br />
                         <DimmerExampleEvents />
-                        <br /><br /><br /><hr></hr>
+                        <br /><br /><br /> <br /><br />
                         <ListExampleIcon />
+                        <Footer/>
                     </Cell>
+
                 </Grid>
+                
+
             </div>
 
         )

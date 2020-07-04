@@ -11,6 +11,7 @@ export class Projects extends Component {
   render() {
     return (
       <Segment.Group id="project">
+        <br></br>
        <h1>Projects</h1>
       <div className="container">
         <a href="https://www.youtube.com/watch?v=9Ia5qTA1nfw&t=2s">
